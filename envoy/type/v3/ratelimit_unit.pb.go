@@ -35,6 +35,8 @@ const (
 	RateLimitUnit_HOUR RateLimitUnit = 3
 	// The time unit representing a day.
 	RateLimitUnit_DAY RateLimitUnit = 4
+	// The time unit representing a month.
+	RateLimitUnit_MONTH RateLimitUnit = 5	
 )
 
 // Enum value maps for RateLimitUnit.
@@ -45,6 +47,7 @@ var (
 		2: "MINUTE",
 		3: "HOUR",
 		4: "DAY",
+		5: "MONTH",
 	}
 	RateLimitUnit_value = map[string]int32{
 		"UNKNOWN": 0,
@@ -52,6 +55,7 @@ var (
 		"MINUTE":  2,
 		"HOUR":    3,
 		"DAY":     4,
+		"MONTH":   5,
 	}
 )
 
